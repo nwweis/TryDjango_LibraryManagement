@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>
+    Library Management Home Page
+</h1>
+
+{{ request.user.is_authenticated }}
+
+<p>
+    Library Home
+</p>
+
+<p>
+    Add books
+</p>
+
+<p>
+    Search books
+</p>
+
+{% endblock %}
